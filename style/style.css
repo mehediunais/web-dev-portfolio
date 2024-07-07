@@ -1,1 +1,137 @@
-* {}
+/* fonts */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* fonts */
+/* shared style start */
+.primary-color {
+    color: rgb(253, 110, 10);
+}
+
+.dark2 {
+    color: #474747;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* shared style end */
+
+
+/* header start */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+/* header end */
+
+
+
+/* nav styles start */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.span1 {
+    color: rgb(253, 110, 10);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* nav styles end */
+/* banner start  */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.banner-content {}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    color: black;
+    margin: 5px 0;
+}
+
+.banner-discription {
+    margin: 30px 0;
+    padding-right: 200px;
+}
+
+.btn1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.btn2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    background-color: #fff;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+}
+
+.banner-profile-pic {
+    width: 584px;
+}
+
+
+
+/* banner start end */
